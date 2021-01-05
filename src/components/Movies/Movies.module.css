@@ -1,0 +1,35 @@
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -15px;
+    padding-bottom: 40px;
+}
+
+.item {
+    width: 294px;
+    margin: 15px;
+}
+
+.title {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+}
+
+.image {
+    height: 441px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    object-fit: cover;
+    background-color: #fff;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image:focus, .image:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px 3px;
+}
